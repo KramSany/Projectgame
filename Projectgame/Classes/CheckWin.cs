@@ -28,7 +28,7 @@ namespace Projectgame.Classes
 
         public bool CheckPosition(int row, int column, bool firstPlayer)
         {
-            if (FieldMap[row, column] != 2) return false;
+            if (FieldMap[row, column] != 2) return false; 
             else if (firstPlayer) FieldMap[row, column] = 1;
             else FieldMap[row, column] = 0;
             return true;
